@@ -1,0 +1,32 @@
+name: cowin_slot_tracker
+description: A flutter app to periodically check for available vaccination slots based on users' preferences.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  http: ^0.13.3
+  multi_select_flutter: ^4.0.0
+  lite_rolling_switch: ^0.1.1
+  fluttertoast: ^8.0.7
+  intl: ^0.15.7
+  flutter_countdown_timer: ^4.1.0
+  expansion_tile_card: ^2.0.0
+  url_launcher: ^6.0.4
+  flutter_local_notifications: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
